@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UT_Marine</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="header_top">Welcome to UT_Marine</div>
+
+    <div class="navigation_container">
+        <div class="navigation_button">
+            <button class="navigation_button_inner" id="home-tab">Home</button>
+        </div>
+        <div class="navigation_button">
+            <button class="navigation_button_inner" id="sharks-tab">Sharks</button>
+        </div>
+    </div>
+
+    <div id="home-section">
+        <div class="header_mid">Home</div>
+        <br><br>
+        <p>Welcome to our Marine Life webpage, where we share information on our underwater creatures.</p>
+        <br><br>
+        <div id="version-display"></div>
+    </div>
+
+    <div id="sharks-section" style="display:none;">
+        <div class="header_mid">Sharks</div>
+        <div id="sharks-list">Loading sharks...</div>
+        <button id="prev-page" disabled>Previous</button>
+        <button id="next-page">Next</button>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
